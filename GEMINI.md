@@ -1,5 +1,14 @@
 ## Building and running
 
+### New Commands
+
+- **`/config`**
+  - **Description:** Manage CLI configuration settings.
+  - **Sub-commands:**
+    - **`get <key>`**: Displays the value of a specific configuration setting.
+    - **`set <key> <value>`**: Sets the value of a specific configuration setting in user settings.
+    - **`list`**: Lists all current configuration settings.
+
 Before submitting any changes, it is crucial to validate them by running the full preflight check. This command will build the repository, run all tests, check for type errors, and lint the code.
 
 To run the full suite of checks, execute the following command:
