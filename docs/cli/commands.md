@@ -28,6 +28,13 @@ Slash commands provide meta-level control over the CLI itself.
 - **`/compress`**
   - **Description:** Replace the entire chat context with a summary. This saves on tokens used for future tasks while retaining a high level summary of what has happened.
 
+- **`/config`**
+  - **Description:** Manage CLI configuration settings.
+  - **Sub-commands:**
+    - **`get <key>`**: Displays the value of a specific configuration setting.
+    - **`set <key> <value>`**: Sets the value of a specific configuration setting in user settings.
+    - **`list`**: Lists all current configuration settings.
+
 - **`/editor`**
   - **Description:** Open a dialog for selecting supported editors.
 
